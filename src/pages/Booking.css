@@ -1,0 +1,122 @@
+.book-section {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('../assets/book-a-session.jfif'), lightgray 50% / cover no-repeat;
+
+  background-size: cover;
+}
+
+.booking__pagination {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  padding-bottom: 18px;
+
+  border-bottom: .1px solid #eee;
+}
+
+.pagination {
+  cursor: pointer;
+}
+
+.book-session__caption {
+  margin-top: -5px;
+}
+
+.booking__heading-titles {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.form__container {
+  padding: 0 100px;
+}
+
+.booking__form {
+  padding: 40px 80px;
+
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(125px);
+}
+
+.label__title {
+  font-size: 20px;
+
+  display: inline-block;
+}
+
+.booking__input-field {
+  display: block;
+  width: 100%;
+  padding: 32px;
+  border-radius: 24px;
+border: 1.5px solid var(--Gray-4, #BDBDBD);
+background: rgba(40, 40, 40, 0.30);
+
+  font-size: 20px;
+  font-weight: 400;
+  color: #828282;
+
+  outline: none;
+
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+input[type="date"] {
+  text-transform: uppercase;
+}
+
+.checkbox {
+  margin-top: 20px;
+  margin-bottom: 24px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-wrap {
+  gap: 10px;
+
+  padding: 30px 30px 30px 30px;
+  border-radius: 24px;
+border-bottom: 1px solid var(--Text, #E5E7EB);
+
+  width: 48%;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  font: inherit;
+  color: transparent;
+}
+
+.book__btn {
+  display: block;
+  color: #121212;
+  font-size: 14px;
+  font-weight: 400;
+
+  padding: 24px 12px;
+
+  width: 300px;
+  height: 60px;
+
+  border-radius: 24px;
+  background: #E1DFDD;
+
+  text-align: center;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: all .2s ease-in;
+}
+
+.book__btn:hover {
+  background: rgba(225, 223, 221, 0.5);
+}

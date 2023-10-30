@@ -1,0 +1,23 @@
+/* .img__card-wrapper {
+    background-color: red;
+} */
+
+.img__card-img {
+    width: 250px;
+    height: 210px;
+    border-radius: 24px;
+
+    margin-bottom: -25px;
+}
+
+.img__title {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.img__dimension {
+    font-size: 16px;
+    color: var(--span-text-color);
+}

@@ -1,0 +1,9 @@
+.current__time {
+    font-size: 23px;
+    text-transform: uppercase;
+    /* font-family: 'M PLUS Rounded 1c'; */
+}
+
+.current__time-zone {
+    font-size: 16px;
+}

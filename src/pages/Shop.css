@@ -1,0 +1,54 @@
+.header__titles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.shop__wrapper {
+    margin-top: 30px;
+}
+
+.shop__img-card {
+    position: relative;
+}
+
+.shop__img {
+  width: 100%;
+
+  border-radius: 24px;
+  
+  object-fit: cover;
+}
+
+.shop__film-content {
+    width: 100%;
+
+    border-radius: 24px;
+
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+}
+
+.shop__coming-soon {
+    font-size: 36px;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    margin-top: 30px;
+}
+
+.shop-cart,
+.movie-wheel {
+    margin-top: 250px;
+}

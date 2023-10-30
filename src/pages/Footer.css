@@ -1,0 +1,24 @@
+.footer__section {
+    padding: 40px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location-time-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: inherit;
+    /* cursor: pointer; */
+}
