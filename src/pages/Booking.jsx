@@ -1,6 +1,8 @@
 import React from "react";
 import './Booking.css';
 
+import Footer from './Footer';
+
 function Booking() {
   return (
     <div className="book-section">
@@ -86,7 +88,10 @@ function Booking() {
             <submit type="submit" className="book__btn">Send</submit>
           </form>
         </div>
+        
+      <Footer />
       </div>
+
     </div>
   );
 }

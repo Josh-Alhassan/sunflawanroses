@@ -11,10 +11,10 @@ function NavBar() {
 
       <nav>
         <ul className="nav__items">
-            <NavItem url='#gallery' link='Photos' />
-            <NavItem url='#film' link='Films' />
-            <NavItem url='#shop' link='Shop' />
-            <NavItem url='#contact' link='Booking' />
+            <NavItem url='/photos' link='Photos' />
+            <NavItem url='/film' link='Films' />
+            <NavItem url='/shop' link='Shop' />
+            <NavItem url='/bookings' link='Booking' />
 
             {/* <BrowserRouter>
               <Routes>

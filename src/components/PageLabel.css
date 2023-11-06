@@ -1,0 +1,13 @@
+.pageTitle {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #E1DFDD;
+}
+
+.page__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 48px;
+}

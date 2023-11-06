@@ -1,0 +1,10 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pageLabel {
+    font-size: 24px;
+    color: #D1D1D1;
+}

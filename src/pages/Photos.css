@@ -1,0 +1,12 @@
+.photos__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 48px;
+}
+
+.photos__nav--menu {
+    display: flex;
+    gap: 16px;
+}
