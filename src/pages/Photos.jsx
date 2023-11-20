@@ -12,7 +12,6 @@ function Photos() {
   return (
     <div>
       <NavBar />
-
       <div className="section">
         <div className="page__nav">
           <Pagination
@@ -45,7 +44,7 @@ function Photos() {
         </div>
         <PhotoAll />
         {/* <Route path="all" element={<PhotoAll />} /> */}
-        <h1>Welcome to Photos</h1>
+        {/* <h1>Welcome to Photos</h1> */}
       </div>
     </div>
   );

@@ -20,7 +20,6 @@ root.render(
             </Route>
             {/* <Route path='photopage' element={<PhotoPage/>} /> */}
           </Routes>
-        
         </BrowserRouter>
     
   </React.StrictMode>
