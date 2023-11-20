@@ -6,6 +6,8 @@ import App from './App';
 import Booking from './pages/Booking';
 import Photos from './pages/Photos';
 import PhotoAll from './components/PhotoAll';
+import ShopPage from './pages/ShopPage';
+import FilmPage from './pages/FilmPage';
 // import PhotoPage from './pages/PhotoPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,7 +20,8 @@ root.render(
             <Route path='photos' element={<Photos/>}>
               <Route path="all" element={<PhotoAll />} />
             </Route>
-            {/* <Route path='photopage' element={<PhotoPage/>} /> */}
+            <Route path='shop' element={<ShopPage/>} />
+            <Route path='film' element={<FilmPage/>} />
           </Routes>
         </BrowserRouter>
     

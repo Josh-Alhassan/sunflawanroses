@@ -8,7 +8,7 @@ import '../components/Pagination.css'
 import './Photos.css'
 import './ShopPage.css'
 
-function ShopPage() {
+function FilmPage() {
   return (
     <>
       <NavBar />
@@ -31,7 +31,7 @@ function ShopPage() {
             }
             pageLabel="Back"
           />
-          <PageLabel pageTitle="Shop" />
+          <PageLabel pageTitle="Films" />
         </div>
 
         <div className="photos__navigation">
@@ -49,4 +49,4 @@ function ShopPage() {
   )
 }
 
-export default ShopPage
+export default FilmPage
