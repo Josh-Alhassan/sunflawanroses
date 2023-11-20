@@ -41,13 +41,6 @@ function PhotoAll() {
 
       {selectedImage && (
         <div className="imagePreview">
-          {/* <button onClick={handlePreviewClose}>Close Preview</button> */}
-
-          {/* More Info Button */}
-          {/* <button className="more-info__button" onClick={handleMoreInfoClick}>
-            More Info
-          </button> */}
-
           <div className="image-preview__icons">
 
             <div className="cancel__svg" onClick={handlePreviewClose}>
@@ -76,6 +69,8 @@ function PhotoAll() {
                 Golden Sunset Over Lagos
               </h3>
               <p className='more-info__section--paragraph'>This photograph captures the breathtaking beauty of a golden sunset over Lagos, Nigeria. The vibrant hues of orange and gold paint the sky as the sun dips below the horizon, casting a warm and tranquil glow over the cityscape. The contrast between the silhouetted buildings and the radiant sky creates a captivating visual narrative of the city's dynamic energy and the serene moments it offers.</p>
+
+              <h4 className="more-info__section__dimension">Dimensions: 1920 x 1280 pixels</h4>
             </div>
           )}
         </div>

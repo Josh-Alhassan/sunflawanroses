@@ -114,4 +114,12 @@
 .more-info__section--paragraph {
     color: #BDBDBD;
     font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.more-info__section__dimension {
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
 }

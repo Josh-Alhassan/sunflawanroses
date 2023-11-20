@@ -43,8 +43,6 @@ function Photos() {
           <SearchBox />
         </div>
         <PhotoAll />
-        {/* <Route path="all" element={<PhotoAll />} /> */}
-        {/* <h1>Welcome to Photos</h1> */}
       </div>
     </div>
   );
