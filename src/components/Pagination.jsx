@@ -4,9 +4,9 @@ import './Pagination.css';
 function Pagination({vector, pageLabel}) {
   return (
     <div className='pagination'>
-      <div className="vector">
+      <a className="vector" href='/'>
         {vector}
-      </div>
+      </a>
       <p className="pageLabel">{pageLabel}</p>
     </div>
   )

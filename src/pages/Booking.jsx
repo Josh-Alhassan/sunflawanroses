@@ -8,7 +8,7 @@ function Booking() {
     <div className="book-section">
       <div className="section">
         <div className="booking__pagination">
-          <p className="pagination">
+          <a className="pagination" href="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="18"
@@ -21,7 +21,7 @@ function Booking() {
                 fill="#E5E7EB"
               />
             </svg>
-          </p>
+          </a>
           <p className="book-session__caption">Book a Session</p>
         </div>
         
