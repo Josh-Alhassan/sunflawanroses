@@ -30,3 +30,42 @@
     text-decoration: none;
     color: var(--white);
 }
+
+/* MEDIA SCREEN */
+@media screen and (max-width: 960px) {
+    .nav__section {
+     padding: 24px 100px;
+    }
+
+    .section {
+        padding: 24px 100px;
+    }
+ }
+
+ 
+@media screen and (max-width: 970px) {
+    .nav__section {
+     padding: 24px 100px;
+    }
+
+    .section {
+        padding: 24px 100px;
+    }
+
+ }
+
+ @media screen and (max-width: 768px) {
+    .nav__section {
+     padding: 24px 60px;
+    }
+
+    .nav__items {
+        display: none;
+    }
+
+    .section {
+        padding: 24px 60px;
+    }
+
+
+ }

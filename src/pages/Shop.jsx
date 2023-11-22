@@ -13,12 +13,16 @@ function Shop() {
             <HeaderText text="Explore" />
         </div>
 
-        <div className="shop__img-card">
-            <img className='shop__img' src={shopImage} alt="Movie Scene" />
+        <div className="shop__img-card film__img-card">
+            {/* <img className='shop__img' src={shopImage} alt="Movie Scene" /> */}
 
             <div className="shop__film-content">
-                <ShopCart className="shop-cart" />
-                <p className="shop__coming-soon">Coming Soon!</p>
+              <div className="shop-cart cart-svg">
+                <ShopCart />
+              </div>
+                <p className="shop__coming-soon">
+                  Coming Soon!
+                </p>
             </div>
         </div>
     </div>

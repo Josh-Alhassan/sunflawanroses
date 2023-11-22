@@ -22,3 +22,19 @@
     color: inherit;
     /* cursor: pointer; */
 }
+
+.footer__links li {
+    list-style: none;
+}
+
+@media screen and (max-width: 1115px) {
+    .footer__links {
+     font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer__links {
+     display: none;
+    }
+}

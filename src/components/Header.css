@@ -18,3 +18,23 @@
     font-size: 96px;
     font-weight: 700;
 }
+
+/* MEDIA SCREEN */
+@media screen and (max-width: 1024px) {
+    .hero__text {
+        font-size: 70px;
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    .hero__text {
+     font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero__text {
+        font-size: 40px;
+    }
+}

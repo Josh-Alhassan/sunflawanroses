@@ -15,7 +15,7 @@ function App() {
       <Header />
       <main className='section'>
         <AboutUs />
-        <Gallery />
+        {/* <Gallery /> */}
         <Film />
         <Shop />
         <Footer />

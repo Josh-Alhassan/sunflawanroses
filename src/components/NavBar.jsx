@@ -15,13 +15,6 @@ function NavBar() {
             <NavItem url='/film' link='Films' />
             <NavItem url='/shop' link='Shop' />
             <NavItem url='/bookings' link='Booking' />
-
-            {/* <BrowserRouter>
-              <Routes>
-                <Route path='booking' element={<Booking />} />
-              </Routes>
-            
-            </BrowserRouter> */}
         </ul>
       </nav> 
     </div>
