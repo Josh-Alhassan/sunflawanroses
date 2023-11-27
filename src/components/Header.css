@@ -38,3 +38,9 @@
         font-size: 40px;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .hero__text {
+        font-size: 32px;
+    }
+}

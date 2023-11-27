@@ -38,3 +38,9 @@
      display: none;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .footer__section {
+        padding: 20px;
+    }
+}

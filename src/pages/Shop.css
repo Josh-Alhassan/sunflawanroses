@@ -75,33 +75,6 @@
     
 }
 
-@media screen and (max-width: 970px) {
-    .nav__section {
-     padding: 24px 100px;
-    }
-
-    .section {
-        padding: 24px 100px;
-    }
-
-
- }
-
- @media screen and (max-width: 768px) {
-    .nav__section {
-     padding: 24px 60px;
-    }
-
-    .nav__items {
-        display: none;
-    }
-
-    .section {
-        padding: 24px 60px;
-    }
-
-
- }
 
  @media screen and (max-width: 670px) {
     .shop__coming-soon {
@@ -129,5 +102,17 @@
     }
     .shop__coming-soon {
         font-size: 16px;
+    }
+ }
+
+ @media screen and (max-width: 425px) {
+
+    .shop__img-card {
+        height: 350px;
+    }
+
+    .shop__coming-soon {
+        margin-top: 10px;
+        font-size: 20px;
     }
  }

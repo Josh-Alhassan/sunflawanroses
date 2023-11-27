@@ -1,9 +1,15 @@
 .current__time {
-    font-size: 23px;
+    font-size: 24px;
     text-transform: uppercase;
     /* font-family: 'M PLUS Rounded 1c'; */
 }
 
 .current__time-zone {
     font-size: 16px;
+}
+
+@media screen and (max-width: 425px) {
+    .current__time {
+        font-size: 20px;
+    }
 }

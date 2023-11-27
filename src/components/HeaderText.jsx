@@ -1,4 +1,5 @@
 import React from 'react'
+import './HeaderText.css'
 
 function HeaderText(props) {
   return (
