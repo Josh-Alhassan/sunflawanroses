@@ -1,6 +1,7 @@
-/* .img__card-wrapper {
-    background-color: red;
-} */
+.img__card-wrapper {
+    /* background-color: red; */
+    width: fit-content;
+}
 
 .img__card-img {
     width: 250px;
@@ -20,4 +21,14 @@
 .img__dimension {
     font-size: 16px;
     color: var(--span-text-color);
+}
+
+
+@media screen and (max-width: 768px) {
+    .img__card-img {
+        /* Adjust styles for individual image cards on tablet screens */
+        /* For example, you can set a fixed width for each card */
+        width: 200px;
+        height: 190px;
+      }
 }

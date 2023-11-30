@@ -16,7 +16,6 @@ function Footer() {
             <li><a href="#" target='_blank'>Phone ↗</a></li>
             <li><a href="#" target='_blank'>Instagram ↗</a></li>
             <li><a href="#" target='_blank'>LinkedIn ↗</a></li>
-            <li><a href="#" target='_blank'>Twitter ↗</a></li>
           </ul>
         </nav>
       </div>
