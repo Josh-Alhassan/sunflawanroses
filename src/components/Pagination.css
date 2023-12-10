@@ -8,3 +8,13 @@
     font-size: 24px;
     color: #D1D1D1;
 }
+
+@media screen and (max-width: 375px) {
+    .pageLabel {
+        font-size: 18px;
+    }
+
+    .vector {
+        font-size: 18px;
+    }
+}

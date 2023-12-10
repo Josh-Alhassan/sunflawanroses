@@ -10,7 +10,7 @@ function Shop() {
     <div className='shop__wrapper' id='shop'>
         <div className="header__titles">
             <HeaderText text="SHOP" />
-            <HeaderText text="Explore" />
+            <HeaderText text="Explore" link="shop" />
         </div>
 
         <div className="shop__img-card film__img-card">

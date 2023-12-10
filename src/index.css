@@ -43,3 +43,14 @@ code {
 .locator__svg {
   font-size: 4px;
 }
+
+a {
+  color: var(--white)
+}
+
+
+@media screen and (max-width: 280px) {
+  body {
+    overflow-x: hidden;
+  }
+}

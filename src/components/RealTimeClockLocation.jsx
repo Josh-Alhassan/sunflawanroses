@@ -27,10 +27,12 @@ function RealTimeClockLocation() {
   return (
     <div>
       <div className="location-time-wrap">
-        <p className='current__time'>{currentTime}</p>
-        <LocationSVG />
+        <div className="seperate">
+          <p className='current__time'>{currentTime}</p>
+          <LocationSVG />
+        </div>
 
-<p className='current__time-zone'> {timezone}</p>
+        <p className='current__time-zone'> {timezone}</p>
         {error && <p>{error}</p>}
       </div>
     </div>

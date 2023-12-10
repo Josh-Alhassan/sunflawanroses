@@ -3,10 +3,18 @@
     align-items: center;
     justify-content: space-between;
 
-    margin-bottom: 48px;
+    margin-bottom: 38px;
 }
 
 .photos__nav--menu {
     display: flex;
     gap: 16px;
+}
+
+@media screen and (max-width: 375px) {
+    .photos__navigation {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 15px;
+    }   
 }

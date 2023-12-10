@@ -10,3 +10,15 @@
 .menu:hover {
     color: #adadad;
 }
+
+@media screen and (max-width: 630px) {
+    .menu {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .menu {
+        font-size: 16px;
+    }
+}

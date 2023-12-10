@@ -10,7 +10,7 @@ function Film() {
     <div className="film" id='film'>
       <div className="header__titles">
         <HeaderText text="FILMS" />
-        <HeaderText text="See All" />
+        <HeaderText text="See All" link="film" />
       </div>
 
       <div className="shop__img-card">

@@ -123,3 +123,48 @@
     font-weight: 700;
     text-transform: capitalize;
 }
+
+@media screen and (max-width: 768px) {
+    /* .more-info__section {
+        bottom: 260px;
+        
+    } */
+
+    .imagePreview {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .photo__img {
+        border-radius: 10px;
+    }
+
+    .image-preview__icons {
+        top: 61px;
+        right: 45px;
+    }
+
+    .more-info__section {
+        bottom: 0px;
+        
+    }
+
+    .more-info__section--paragraph {
+        font-size: 12px;
+    }
+
+    .more-info__section--heading {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .preview-image {
+        height: 100%;
+        width: 100%;
+
+        object-fit: cover;
+    }
+
+    
+}

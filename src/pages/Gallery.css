@@ -4,23 +4,12 @@
 }
 
 .gallery-img__wrapper {
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    
-    column-gap: 20px;
-    row-gap: 30px; */
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
     gap: 16px;
 
     justify-items: center;
-    /* Adjust the gap between image cards as needed */
-
-    /* display: flex;
-    flex-wrap: wrap;
-    gap: 10px; */
 
     margin-top: 20px;
 }
@@ -33,6 +22,8 @@
         scroll-snap-type: x mandatory; /* Enable snapping to each image card */
         white-space: nowrap; /* Prevent cards from wrapping to the next line */
         scroll-snap-align: start;
+
+        gap: 10px;
       }
 
       

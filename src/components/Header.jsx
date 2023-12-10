@@ -2,16 +2,18 @@ import React, { useState, useEffect } from "react";
 import NavBar from "./NavBar";
 import "./Header.css";
 
-import img1 from "../assets/img-1.jpg"
+import img1 from "../assets/IMG_9659.jpg"
 import img2 from "../assets/IMG-2.jpg"
 import img3 from "../assets/IMG-3.jpg"
 import img4 from "../assets/IMG-4.jpg"
+import img5 from "../assets/this.jpg";
 
 const images = [
   img1,
   img2,
   img3,
-  img4
+  img4,
+  img5
 ];
 
 function Header() {

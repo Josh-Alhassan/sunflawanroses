@@ -1,4 +1,9 @@
 .about-us__section {
-    
     margin-bottom: 32px;
+}
+
+@media screen and (max-width: 425px) {
+    .about-us__section {
+        padding-top: 20px;
+    }
 }

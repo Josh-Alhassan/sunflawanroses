@@ -58,7 +58,7 @@ function PhotoAll() {
 
           </div>
 
-          <img src={selectedImage} alt="Preview" />
+          <img src={selectedImage} alt="Preview" className='preview-image' />
 
 
           {/* More Info Section */}

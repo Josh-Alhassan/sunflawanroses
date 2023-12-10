@@ -10,9 +10,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff; /* Set your desired text color */
-    z-index: 2; /* Ensure the hero text is on top of the image */
+    text-align: center; 
+    color: #fff;
+    z-index: 2; 
   }
 
 .hero__image {
@@ -43,7 +43,7 @@
 /* Dark Overlay for Hero Image */
 .hero__overlay {
     position: absolute;
-    top: 76px;
+    top: 72px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -77,6 +77,6 @@
     }
 
     .hero__overlay {
-        top: 68px;
+        top: 64px;
     }
 }

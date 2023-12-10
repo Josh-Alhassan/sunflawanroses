@@ -11,3 +11,19 @@
 
     margin-bottom: 48px;
 }
+
+@media screen and (max-width: 630px) {
+    .pageTitle {
+        font-size: 28px;
+    }
+
+    .page__nav {
+        margin-bottom: 28px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .pageTitle {
+        font-size: 24px;
+    }
+}
